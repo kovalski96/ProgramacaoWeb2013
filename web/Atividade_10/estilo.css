@@ -1,0 +1,25 @@
+ul{
+  list-style-image:url(img.jpg);
+  list-style-position:inside;
+}
+
+a:link{
+  text-decoration:underline;
+  color:green
+}
+
+a:visited{
+  color:blue;
+  text-decoration:underline;
+}
+
+a:hover{
+  color:red;
+  text-decoration:underline;
+  background-color:yellow;
+}
+
+a:active{
+  color:#ffffff;
+  background-color:black;
+}

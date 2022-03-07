@@ -1,0 +1,48 @@
+body{
+	background-color:#00aaff;
+}
+#a_1{
+	width:100%;
+	height:100px;
+	background-color:#7777AA;
+	background-image:url(img2.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#a_2{
+	width:30%;
+	height:800px;
+	float:left;
+	background-color:#7777AA;
+	border-width:2mm;
+	border-style:solid;
+	border-right-width:2mm;
+	border-right-style:double;
+	
+
+}
+
+#a_3{
+	width:99%;
+	height:800px;
+	background-color:#EEEEFF;
+	border-width:2mm;
+	border-style:solid;
+	border-left-style:double;
+}
+
+h1{
+	font-family:"Arial";
+	font-size:40px;
+	color:white;
+	text-align:center;
+	
+}
+
+ul{
+	list-style-image:url(img.jpg);
+	list-style-position:left;
+}
+
+

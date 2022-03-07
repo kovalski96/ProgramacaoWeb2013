@@ -1,0 +1,31 @@
+p{
+    text-align:left;
+	color: #33cc00;
+	font-size:12px;
+	font-family:"Times New Roman", serif;
+	text-indent:2em;
+}
+  
+
+h1{
+    text-align:center;
+	text-decoration:underline;
+	color:blue;
+	font-family:verdana,sans-serif;
+	font-size:30px;
+}
+
+body{
+    
+	background:rgb(0,146,221) url("logo.jpg") no-repeat fixed right bottom;
+}
+
+.legenda{
+    
+	font-family:"Courier New", monospace;
+	font-size:11px;
+	font-weight:bolder;
+	text-align:left;
+	color:black;
+
+}

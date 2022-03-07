@@ -1,0 +1,18 @@
+<html>
+ <head>
+	<script>
+	
+	var nun_cont, saldo, debito, credito, saldo_atual;
+	nun_cont = parseInt(prompt("Digite o numero de sua conta:"))
+	debito = parseInt(prompt("Digite o valor do debito:"))
+	credito = parseInt(prompt("Digite o seu credito:"))
+	saldo = parseInt(prompt("Digite o valor do seu saldo:"))
+	saldo_atual = saldo - debito + credito;
+	if (saldo_atual>=0){
+		alert("Seu Saldo é:" + saldo_atual +" Saldo positivo:")
+	}
+	else {
+		alert("Seu Saldo é: " + saldo_atual +" Saldo negativo:")}
+	</script>
+ </head>
+</html>

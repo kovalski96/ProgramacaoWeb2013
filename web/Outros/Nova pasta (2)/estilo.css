@@ -1,0 +1,39 @@
+
+#topo{
+  width:70%;
+  height:15%;
+  background-color:#888888;
+  display:inline-block;
+  position:absolute;
+  top:0;
+  left:0%
+
+}
+
+#conteudo{
+  width:70%;
+  height:85%;
+  background-color:#555555;
+  display:inline-block;
+
+}
+
+#menu{
+  width:30%;
+  height:100%;
+  background-color:#AAAAAA;
+  position:absolute;
+  top:0;
+  left:70%;
+
+}
+
+#pai{
+
+  position:relative;
+
+}
+
+body{
+	background:rgb(47,218,16);
+}

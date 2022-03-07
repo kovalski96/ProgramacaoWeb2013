@@ -1,0 +1,30 @@
+<html>
+	<head>
+	<script>
+	//arquivo de Bruno Kovalski
+	var nome, quantia, preco_unitario, total, total_a_pagar, desconto;
+	nome = prompt("Digite o Nome do Produto:");
+	quantia = parseInt(prompt("Digite a Quantia que Deseja:"));
+	preco_unitario = parseInt(prompt("Digite o Preço Unitario do Produto:"));
+	total = quantia * preco_unitario;
+	if (quantia <=5){
+	desconto = total*0.02
+	total_a_pagar = total - desconto
+	alert("O preço de sua compra é de: " + total_a_pagar);
+	}	
+	if (quantia >5 && quantia <10){
+	desconto = total*0.03
+	total_a_pagar = total - desconto
+	alert("O preço de sua compra é de: " + total_a_pagar);
+	}
+	if (quantia >10){
+	desconto = total*0.05
+	total_a_pagar = total - desconto
+	alert("O preço de sua compra é de: " + total_a_pagar);
+	}	
+	</script>
+	</head>
+	<body>
+	<h1>Arquivo de  " © Bruno Kovalski "</h1>
+	</body>
+</html>

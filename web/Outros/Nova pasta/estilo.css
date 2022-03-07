@@ -1,0 +1,50 @@
+#menu{
+	width:30%;
+	height:auto%;
+	background-color:#AAAAAA;
+	overflow:auto;
+
+}
+
+#topo{
+	width:70%;
+	height:10%;
+	background-color:#888888;
+	position:absolute;
+	top:0;
+	left:30%;
+}
+
+#conteudo{
+	width:70%;
+	height:90%;
+	background-color:#555555;
+	overflow:auto;
+	position:absolute;
+	top:10%;
+	left:30%;
+}
+
+#pai{
+	width:100%;
+	height:auto;
+	position:relative;
+}
+
+iframe{
+	width:100%;
+	height:100%;
+
+}
+
+p{
+	font-size:25px;
+}
+
+h1{
+	font-size:75px;
+}
+
+ul{
+	font-size:25px;
+}
